@@ -1,0 +1,25 @@
+{
+  "name": "ashimu_qa_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "playwright": "npx playwright test --ui",
+    "backend": "mocha backend/tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/chai": "^5.2.2",
+    "@types/node": "^24.0.14",
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "playwright": "^1.54.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
+}
